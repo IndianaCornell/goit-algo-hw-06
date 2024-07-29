@@ -60,9 +60,8 @@ def bfs_path(graph, start, goal):
 bfs_result = bfs_path(G, "Park", "Lviv Theatre")
 
 
-
+# Дейкстра
 def dijkstra(graph, start):
-    # Ініціалізація
     shortest_paths = {start: (None, 0)}
     current_node = start
     visited = set()
